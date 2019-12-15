@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/11.jpg');
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+.header ul {
+    z-index: 3;
+    background-color: rgba(226, 216, 216, 0.527);
+    width: auto;
+    text-align: center;
+    position: relative;
+    margin-block-start: 0;
+}
+.header ul li {
+    display: inline-block;
+    
+}
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(28, 64, 226);
+    font-size: 20xp;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+.header ul li a:hover{
+    background-color: seashell;
+}
+.header-welcome {
+    position: absolute;
+    z-index: 3;
+    margin-top: 15%;
+    margin-left: 30%;
+    text-align: center;
+}
+.header-welcome h1, .header-welcome p {
+    color: white;
+}
+.header-welcome a {
+    padding: 12px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+#bio-data {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: cornsilk;
+}
+#bio-data div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#bio-data div hr {
+    width: 50%;
+}
+#galeri {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#galeri div {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+#galeri div hr {
+    width: 40%;
+    margin-bottom: 100px;
+}
+#galeri div div {
+    display: flex;
+    width: 100%;
+}
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card img {
+    width: 70%;
+    margin: auto;
+}
+.card div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#motivasi {
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url('../img/5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#motivasi h1 {
+    position: relative;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+}
+.overlay {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#footer {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer-item {
+    flex: 1;
+    padding: 25px;
+}
+.footer-item h2 {
+    text-align: center;
+}
+
+p{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+}
+
